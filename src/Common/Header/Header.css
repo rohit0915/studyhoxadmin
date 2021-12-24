@@ -1,0 +1,139 @@
+.MainHeader {
+  background-color: #22232b !important;
+  border-bottom: 2px solid #e51515;
+}
+.header_padding {
+  width: 100%;
+  padding-right: 7% !important;
+  padding-left: 7% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header_grow {
+  flex-grow: 1 !important;
+}
+.header_links {
+  display: flex;
+  justify-content: space-between !important;
+}
+.header_link_color {
+  color: #fff;
+  font-weight: 400 !important;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 17px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
+
+.header_link_color:hover {
+  opacity: 0.7;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1320;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav span {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: left !important;
+}
+
+.sidenav span:hover {
+  opacity: 0.7;
+}
+
+.cross_icon_style {
+  text-align: right !important;
+  color: black;
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logout_Pointer_cursor {
+  cursor: pointer !important;
+}
+.mobile_Burger_Menu {
+  display: none;
+}
+#mySidenav {
+  display: none;
+}
+
+.MuiAppBar-root {
+  width: 100%;
+  display: flex;
+  z-index: 1076;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+/*for dropdown*/
+
+.user_image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+}
+
+.dropdown_user_profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: lightgray;
+  color: #000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 8px 12px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo_img img {
+  height: 60px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .header_links {
+    display: none;
+  }
+  #mySidenav {
+    display: block;
+  }
+  .mobile_Burger_Menu {
+    display: block;
+    color: #fff !important;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,49 @@
+.Component_main_grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.main_card {
+  background-color: #1280f5 !important;
+  padding: 37px 29px !important;
+  color: #fff !important;
+  /* border-radius: 21px !important; */
+  margin: 12px !important;
+  cursor: pointer;
+}
+
+.main_content {
+  font-size: 18px;
+}
+
+.box_height {
+  height: auto;
+  width: 50px;
+}
+.main_div {
+  margin-top: 5%;
+}
+.home_padding {
+  width: 100% !important;
+}
+.content_padding_home {
+  padding-top: 7%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 280px) and (max-width: 800px) {
+  .main_div {
+    margin-top: 20%;
+  }
+  .proslider_mobile {
+    display: none;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 610px) and (max-width: 900px) {
+  .main_div {
+    margin-top: 10%;
+  }
+}

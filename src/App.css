@@ -1,0 +1,24 @@
+.sidebar_height {
+  height: 667px;
+}
+.content_padding {
+  margin-top: 12%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.Component_main_grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .content_padding {
+    margin-top: 24%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
